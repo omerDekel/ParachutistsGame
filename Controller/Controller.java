@@ -75,7 +75,7 @@ public class Controller {
 			} catch(NewGameException e) {
 				System.out.println("Starting new Game!");
 				this.startCountTime();
-			} catch(ExitException e) {
+			} catch(EndGameException e) {
 				break;
 			} catch(Exception ignored) {
 			}

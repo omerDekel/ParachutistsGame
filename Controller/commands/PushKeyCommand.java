@@ -8,10 +8,10 @@ public class PushKeyCommand extends CommandExecutor {
 	/**
 	 * PushKeyCommand class constructor.
 	 *
-	 * @param model for executing command.
+	 * @param logic for executing command.
 	 */
-	public PushKeyCommand(GameLogic model) {
-		this.logic = model;
+	public PushKeyCommand(GameLogic logic) {
+		this.logic = logic;
 	}
 
 	/**

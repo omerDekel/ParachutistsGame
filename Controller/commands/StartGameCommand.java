@@ -10,10 +10,10 @@ import java.util.HashMap;
 public class StartGameCommand extends CommandExecutor {
 	/**
 	 * constructor.
-	 * @param model logic for execute the command.
+	 * @param logic logic for execute the command.
 	 */
-	public StartGameCommand(GameLogic model) {
-		this.logic = model;
+	public StartGameCommand(GameLogic logic) {
+		this.logic = logic;
 	}
 
 	/**

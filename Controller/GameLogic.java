@@ -142,6 +142,8 @@ public class GameLogic extends Observable {
             this.playerLose = true;
         }
     }
+    public void closeGame(){
+    }
     //Getters
     public int getScores() {
         return scores;

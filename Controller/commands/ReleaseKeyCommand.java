@@ -10,10 +10,10 @@ import java.util.HashMap;
 public class ReleaseKeyCommand extends CommandExecutor {
 	/**
 	 * ReleaseKeyCommand class constructor.
-	 * @param model .
+	 * @param logic .
 	 */
-	public ReleaseKeyCommand(GameLogic model) {
-		this.logic = model;
+	public ReleaseKeyCommand(GameLogic logic) {
+		this.logic = logic;
 	}
 
 	/**
