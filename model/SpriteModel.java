@@ -18,14 +18,6 @@ public abstract class SpriteModel implements Sprite{
 
 
 
-    public Image getImage() {
-        return image;
-    }
-
-    public void setImage(Image image) {
-        this.image = image;
-    }
-
 
     /**
      * construtor.
@@ -85,6 +77,14 @@ public abstract class SpriteModel implements Sprite{
     public double getX() {
 
         return x;
+    }
+
+    public Image getImage() {
+        return image;
+    }
+
+    public void setImage(Image image) {
+        this.image = image;
     }
 
 }

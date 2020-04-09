@@ -89,9 +89,9 @@ public class GameLogic extends Observable {
      * @param t current time
      */
     private void updateParachutists(double t){
-        for (ParachutistModel parachutist : parachutists) {
-            parachutist.calculateNextStep(t);
-            parachutistLanding(parachutist);
+        for (int i  = 0;i<parachutists.size();i++) {
+            parachutists.get(i).calculateNextStep( t);
+            parachutistLanding(parachutists.get(i));
         }
     }
     private void setBoatDirection() {
